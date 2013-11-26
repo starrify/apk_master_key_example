@@ -31,7 +31,7 @@ echo "Modifying files."
 #for f in `find . -type f | egrep -v "($PY_SCRIPT|resources.arsc)"` 
 for f in `find . -type f | egrep -v "($PY_SCRIPT)"` 
 do 
-    $PY_SCRIPT ../$APK_OUT "$f" 
+    ./$PY_SCRIPT ../$APK_OUT "$f" 
 done
 cd ..
 #rm -rf $TMP_DIR
