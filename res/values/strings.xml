@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">apk_master_key_example</string>
     <string name="action_settings">Settings</string>
-    <string name="button_text">"I'm a good action."</string>
-    <string name="item_text">Good Item</string>
-
+    <string name="button_text">"I'm an evil action."</string>
+    <string name="item_text">Evil Item</string>
 </resources>
